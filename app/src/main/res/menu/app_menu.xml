@@ -18,4 +18,8 @@
         android:id="@+id/menu_contact"
         android:title="Contact"
         />
+    <item
+        android:id="@+id/menu_closeapp"
+        android:title="Close the app"
+        />
 </menu>

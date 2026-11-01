@@ -34,6 +34,10 @@ public class BaseMenuActivity extends AppCompatActivity {
             startActivity(intent);
             return true;
         }
+        if (item.getItemId() == R.id.menu_closeapp) {
+            finish();
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 
