@@ -22,4 +22,8 @@
         android:id="@+id/menu_closeapp"
         android:title="Close the app"
         />
+    <item android:id="@+id/menuHome"
+        android:title="Home"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="ifRoom" />
 </menu>

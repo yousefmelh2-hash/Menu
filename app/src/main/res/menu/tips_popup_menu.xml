@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/tip_plan"
-        android:title="זמן תכנון "/>
+
     <item
         android:id="@+id/tip_break"
-        android:title="הפסקות"/>
+        android:title="הפסקות"
+        android:icon="@drawable/ic_break"/>
     <item
         android:id="@+id/tip_review"
-        android:title="חזרה למבחן "/>
+        android:title="חזרה למבחן "
+        android:icon="@drawable/ic_exam"/>
+
+    <item android:id="@+id/tip_plan"
+        android:title="זמן תכנון"
+        android:icon="@drawable/ic_settings" />
 </menu>

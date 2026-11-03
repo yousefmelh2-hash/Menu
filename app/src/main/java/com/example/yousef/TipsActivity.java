@@ -49,7 +49,7 @@ public class TipsActivity extends BaseMenuActivity {
         PopupMenu popup = new PopupMenu(this, anchor);
 
         popup.inflate(R.menu.tips_popup_menu);
-
+        popup.setForceShowIcon(true);
         popup.setOnMenuItemClickListener(item -> {
 
             if (item.getItemId() == R.id.tip_plan) {
