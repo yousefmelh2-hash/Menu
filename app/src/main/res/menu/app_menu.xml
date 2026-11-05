@@ -2,10 +2,7 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/menu_home"
-        android:title="Home"
-        />
+
     <item
         android:id="@+id/menu_tips"
         android:title="Tips"
@@ -13,6 +10,7 @@
     <item
         android:id="@+id/menu_about"
         android:title="About"
+        android:icon="@drawable/outline_book_2_24"
         />
     <item
         android:id="@+id/menu_contact"
@@ -22,8 +20,8 @@
         android:id="@+id/menu_closeapp"
         android:title="Close the app"
         />
-    <item android:id="@+id/menuHome"
+    <item android:id="@+id/menu_home"
         android:title="Home"
-        android:icon="@drawable/ic_settings"
-        app:showAsAction="ifRoom" />
+        android:icon="@drawable/baseline_home_24"
+        app:showAsAction="always" />
 </menu>
